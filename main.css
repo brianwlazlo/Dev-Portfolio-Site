@@ -120,13 +120,13 @@ nav {
   cursor: pointer;
 }
 
-footer {
+.footer {
   text-align: center;
   background-color: black;
   color: white;
 }
 
-footer p {
+.footer p {
  border: solid 1px white;
  padding: 40px;
 }

@@ -2,26 +2,42 @@
   box-sizing: border-box;
 }
 
-body {
+
+html, body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.parent {
+  min-height: 100%;
 }
 
 nav {
   background-color: black;
   color: white;
   margin: 0;
+  padding: 10px;
+  
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links p {
+  margin-right: 20px;
 }
 
 .home-screen {
   display: flex;
-  border: 1px solid green;
-  max-width: 1400px;
+ 
 }
 
 .left-side {
-  border: 1px solid red;
+  /*flex: 1;*/
   width: 50%;
 }
 
@@ -33,21 +49,17 @@ nav {
 }
 
 .right-side {
-  border: 1px solid blue;
+  /*flex: 1;*/
   width: 50%;
-  background-color: white;
+  border: 1px solid blue;
   position: relative;
 }
 
 .welcome-message {
+  top:30%;
+  left: 30%;
+  transform: translate( -30%, -30%);
   position: absolute;
-  margin-left: 5%;
-  margin-top: 20%;
 }
 
-.scroll-message {
-  position: absolute;
-  bottom: 10px;
-  left: 20%;
-}
 

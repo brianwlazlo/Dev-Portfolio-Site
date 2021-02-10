@@ -17,16 +17,58 @@
   </nav>
 
   <section class="container">
-    <div class="left social-media">
-      <img src="../social-media-icons/LI-In-Bug.png" alt="linked-in">
-      <img src="../social-media-icons/GitHub-Mark-64px.png" alt="git-hub">
-      <img src="../social-media-icons/Twitter_Social_Icon_Square_Color.png" alt="twitter">
+    <div class="left">
+      <div class="banner">
+        <div class="title">
+          <h1>contact me</h1>
+        </div>
+        <div class="content">
+          <p>Have some questions about coding or design? Looking for some extra hands on a project? Want to know how to make the best Old Fashioned?</p>
+          <p>Get in touch with me here:</p>
+        </div>
+      </div>
+      <div class="social-media">
+        <div class='social-media-item'><img src="../social-media-icons/LI-In-Bug.png" alt="linked-in"><p>Connect with me on Linked In</p></div>
+        <div class='social-media-item'><img src="../social-media-icons/GitHub-Mark-64px.png" alt="git-hub"><p>See some of my work on GitHub</p></div>
+        <div class='social-media-item'><img src="../social-media-icons/Twitter_Social_Icon_Square_Color.png" alt="twitter"><p>Follow me on Twitter</p></div>
+      </div>
     </div>
 
     <div class="right contact-pic">
-      <img src="" alt="contact-drawing">
+      <img src="../pics/Brian-bowtie-drawing.jpg" alt="contact-drawing">
     </div>
   </section>
+
+  <section id='form' class='form'>
+
+    <div class="form-container">
+      <form action="https://formspree.io/f/xjvpldrk" method="POST" id='contact-form'>
+
+        <div class="form-grp">
+          <label for='name'>Name</label>
+          <input id="user-name" type="text" name="name" class='form-style'>
+        </div>
+
+        <div class="form-grp">
+          <label for="email">Email</label>
+          <input id="email" type="text" name="email" class='form-style'>
+        </div>  
+
+        <div class="form-grp">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" type='text' class='form-style' rows='5'></textarea>
+        </div>
+
+        <button type="submit" id='form-btn'>Submit</button>
+      </form>
+    </div>
+
+    <div id="status"></div>
+  </section>
+
+  <div class='footer'>
+    <p>&copy; Brian Wlazlo</p>
+  </div>
   
   <script src='contact.js'></script>
 </body>

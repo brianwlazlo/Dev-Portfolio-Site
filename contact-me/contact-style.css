@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.social-media img {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}

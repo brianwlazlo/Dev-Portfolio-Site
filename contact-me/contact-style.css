@@ -48,17 +48,30 @@ nav {
   margin-left: 5%;
 }
 
+.title h1 {
+  font-size: 46px;
+  margin:0;
+}
+
 .banner .content {
   line-height: 1.5;
+  margin-top: 40px;
+  color: rgb(97, 96, 96);
 }
 
 .social-media {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
 
+.social-media :not(:last-child) {
+  margin-bottom: 15px;
+}
+
 .social-media-item {
   display: flex;
+  max-width: 350px;
 }
 
 .social-media img {
@@ -66,6 +79,17 @@ nav {
   height: 40px;
   width: 40px;
   margin-right: 10px;
+}
+
+.social-media-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+.social-media-item:hover {
+  border-bottom: 1px solid rgb(90, 90, 90);
 }
 
 .right {

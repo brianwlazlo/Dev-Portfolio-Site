@@ -23,10 +23,14 @@ nav {
 .nav-links {
   display: flex;
   justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.nav-links p {
+.nav-links a {
   margin-right: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .home-screen {
@@ -48,7 +52,6 @@ nav {
 }
 
 .right-content {
-  border: solid 2px red;
   position: absolute;
   left: 40%;
   top: 40%;
@@ -57,12 +60,58 @@ nav {
 }
 
 .welcome-message {
-  border: 1px solid blue;
   margin-bottom: 20%;
 }
 
 .scroll-message {
   text-align: center;
+}
+
+.scroll-message a {
+  margin: 10px;
+  text-decoration: none;
+  padding: 5px 30px;
+  border: 1px solid gray;
+}
+
+.latest-work {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.project-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-item {
+  height: 300px;
+  width: 300px;
+  border: 1px solid blue;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.project-item:hover {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+ border: solid 1px white;
+ padding: 40px;
 }
 
 

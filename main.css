@@ -2,35 +2,52 @@
   box-sizing: border-box;
 }
 
-html {
-  background: url(IMG_2040.JPG) no-repeat center center fixed;
-  background-size: cover;
-}
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(32, 32, 32);
+  margin: 0;
+  padding: 0;
 }
 
-.outer-container {
-  position: absolute;
-  top:50%;
-  width: 100%;
-  transform: translate( 0, -50%);
+nav {
+  background-color: black;
+  color: white;
+  margin: 0;
 }
 
-.inner-container {
-  border: 2px solid lightsteelblue;
-  margin: 0 auto;
-  height: 200px;
-  width: 100%;
+.home-screen {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0.808);
+  border: 1px solid green;
+  max-width: 1400px;
 }
 
-h1 {
-  padding: 20px;
+.left-side {
+  border: 1px solid red;
+  width: 50%;
 }
+
+.hero-shot img {
+  width: 100%;
+  height:auto;
+  margin: 0;
+  padding: 0;
+}
+
+.right-side {
+  border: 1px solid blue;
+  width: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.welcome-message {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
+.scroll-message {
+  position: absolute;
+  bottom: 10px;
+  left: 20%;
+}
+

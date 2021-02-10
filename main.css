@@ -103,6 +103,23 @@ nav {
   cursor: pointer;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.contact a {
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid gray;
+}
+
+.contact a:hover {
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   background-color: black;

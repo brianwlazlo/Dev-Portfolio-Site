@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  max-width: 1300px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 5% 60px 5%;
+  max-width: 1400px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner .title {
+  margin-left: 5%;
+}
+
+.title h1 {
+  font-size: 46px;
+  margin:0;
+}
+
+.banner .content {
+  line-height: 1.5;
+  margin-top: 40px;
+  color: rgb(97, 96, 96);
+}
+
+.site-link a {
+  text-decoration: none;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+
+.homescreen-screenshot img {
+  width: auto;
+  height:400px;
+}
+
+
+.footer {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+
+.footer p {
+ font-size: 14px;
+ margin:0;
+}
+
+@media all and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 15% 20px 15%;
+    
+  }
+
+  .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+  }
+
+  .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .middle-grp-wrapper {
+    background-color: rgb(250, 246, 246);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+  }
+
+  .middle-grp {
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    max-width: 1400px;
+    
+  }
+
+  .challenges {
+    width: 50%;
+    margin-right: 60px;
+  }
+
+  .tech-used {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .challenges, .tech-used {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+  }
+  
+}

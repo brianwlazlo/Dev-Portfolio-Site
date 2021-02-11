@@ -35,36 +35,38 @@ nav {
 
 .home-screen {
   display: flex;
+  flex-direction: column;
 }
 
 .left-side {
-  width: 50%;
+  width: 100%;
 }
 
-.hero-shot img {
+#desktop-img {
+  display: none;
+}
+
+#mobile-img {
   width: 100%;
-  height:auto;
+  height: auto;
 }
 
 .right-side {
-  width: 50%;
-  position: relative;
+  width: 100%;
 }
 
 .right-content {
-  position: absolute;
-  left: 40%;
-  top: 40%;
-  transform: translate(-40%, -40%);
-  padding: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .welcome-message {
-  margin-bottom: 20%;
+  
 }
 
 .scroll-message {
-  text-align: center;
+  display: none;
+  
 }
 
 .scroll-message a {
@@ -88,7 +90,9 @@ nav {
 
 .project-group {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-item {
@@ -134,6 +138,49 @@ nav {
  margin:0;
 }
 
+@media all and (min-width: 600px) {
+  .home-screen {
+    flex-direction: row;
+  }
 
+  .left-side {
+    width: 50%;
+  }
+
+  #desktop-img {
+    display: inline;
+    width: 100%;
+    height: auto;
+  }
+  
+  #mobile-img {
+   display: none;
+  }
+
+  .right-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-content {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroll-message {
+    margin-top: 30%;
+    display: inline;
+    text-align: center;
+  }
+
+  .project-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+}
 
 

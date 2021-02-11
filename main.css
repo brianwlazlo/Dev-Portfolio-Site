@@ -60,13 +60,8 @@ nav {
   margin-right: 3%;
 }
 
-.welcome-message {
-  
-}
-
 .scroll-message {
-  display: none;
-  
+  display: none; 
 }
 
 .scroll-message a {

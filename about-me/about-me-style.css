@@ -85,7 +85,7 @@ ul {
 
 li {
   list-style: none;
-  line-height: 1.75;
+  line-height: 2.0;
 }
 
 .code-design {
@@ -119,6 +119,7 @@ li {
 
 .random-facts .right {
   width: 50%;
+  font-size: 0;
 }
 
 .random-facts-img img {
@@ -129,16 +130,18 @@ li {
 .random-facts {
   display: flex;
   align-items: center;
-  
 }
 
 .footer {
-  text-align: center;
-  background-color: black;
+  background-color: rgb(54, 54, 54);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
 }
 
 .footer p {
- border: solid 1px white;
- padding: 40px;
+ font-size: 14px;
+ margin:0;
 }

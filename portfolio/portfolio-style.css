@@ -12,37 +12,36 @@ nav {
   background-color: black;
   color: white;
   margin: 0;
-  padding: 10px;
+  padding: 15px;
   
 }
 
 .nav-links {
   display: flex;
   justify-content: flex-end;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-left: 15%;
-  margin-right: 15%;
-  max-width: 1300px;
+  margin-right: 5%;
 }
 
 .nav-links a {
   margin-right: 20px;
   text-decoration: none;
   color: white;
+  font-size: 12px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 40px 5% 60px 5%;
+  margin: 40px 5% 20px 5%;
   max-width: 1400px;
 }
 
 .left {
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .banner .title {
@@ -50,8 +49,16 @@ nav {
 }
 
 .title h1 {
-  font-size: 46px;
+  font-size: 28px;
   margin:0;
+}
+
+.content h3, .middle-grp h3 {
+  font-size: 18px;
+}
+
+.content p, .challenge-details, .tech-used-list {
+  font-size: 12px;
 }
 
 .banner .content {
@@ -62,6 +69,7 @@ nav {
 
 .site-link a {
   text-decoration: none;
+  font-size: 12px;
 }
 
 .right {
@@ -71,9 +79,29 @@ nav {
 
 .homescreen-screenshot img {
   width: auto;
-  height:400px;
+  height:350px;
 }
 
+.middle-grp-wrapper {
+  background-color: rgb(250, 246, 246);
+  border-bottom: 1px solid darkgray;
+}
+
+.middle-grp {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.challenges {
+  padding-bottom: 20px;
+}
+
+.challenge-details, .tech-used-list {
+  margin-left: 10px;
+  line-height: 1.5;
+}
 
 .footer {
   background-color: rgb(54, 54, 54);
@@ -93,8 +121,7 @@ nav {
   .container {
     display: flex;
     flex-direction: row;
-    margin: 60px 15% 20px 15%;
-    
+    margin: 60px 10% 0px 10%;
   }
 
   .left {
@@ -110,20 +137,25 @@ nav {
     justify-content: center;
   }
 
+  .homescreen-screenshot img {
+    width: auto;
+    height:250px;
+  }
+
   .middle-grp-wrapper {
-    background-color: rgb(250, 246, 246);
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid darkgray;
   }
 
   .middle-grp {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    margin-left: 13%;
-    margin-right: 13%;
-    max-width: 1400px;
-    
+  }
+
+  .challenge-details, .tech-used-list {
+    margin-left: 0;
   }
 
   .challenges {
@@ -138,11 +170,60 @@ nav {
     align-items: center;
     text-align: center;
   }
+}
+
+@media all and (min-width: 1000px) {
+
+  nav {
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 1200px;
+  }
+
+  .container {
+    margin: 60px 15% 20px 15%;
+  }
+
+  .title h1 {
+    font-size: 46px;
+  }
+  
+  .content h3, .middle-grp h3 {
+    font-size: 24px;
+  }
+  
+  .content p, .challenge-details, .tech-used-list {
+    font-size: 16px;
+  }
+
+  .site-link a {
+    font-size: 16px;
+  }
+
+  .homescreen-screenshot img {
+    width: auto;
+    height:400px;
+  }
+
+  .middle-grp-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .middle-grp {
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    max-width: 1400px;
+  }
 
   .challenges, .tech-used {
     font-size: 16px;
-    line-height: 1.5;
-    padding: 20px;
   }
   
 }

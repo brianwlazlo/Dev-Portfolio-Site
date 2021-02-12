@@ -12,7 +12,7 @@ nav {
   background-color: black;
   color: white;
   margin: 0;
-  padding: 15px;
+  padding: 15px 5px 15px 15px;
   
 }
 
@@ -61,12 +61,15 @@ nav {
   font-size: 12px;
 }
 
-.banner .content {
+.content {
   line-height: 1.5;
   margin-top: 40px;
   color: rgb(97, 96, 96);
 }
 
+.site-link {
+  margin-top: 20px;
+}
 .site-link a {
   text-decoration: none;
   font-size: 12px;
@@ -80,6 +83,11 @@ nav {
 .homescreen-screenshot img {
   width: auto;
   height:350px;
+}
+
+.wip-img img {
+  width: auto;
+  height: 150px;
 }
 
 .middle-grp-wrapper {
@@ -118,6 +126,11 @@ nav {
 }
 
 @media all and (min-width: 600px) {
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -135,6 +148,7 @@ nav {
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .homescreen-screenshot img {
@@ -186,7 +200,7 @@ nav {
   }
 
   .container {
-    margin: 60px 15% 20px 15%;
+    margin: 60px 10% 20px 10%;
   }
 
   .title h1 {
@@ -207,7 +221,12 @@ nav {
 
   .homescreen-screenshot img {
     width: auto;
-    height:400px;
+    height:380px;
+  }
+
+  .wip-img img {
+    width: auto;
+    height: 200px;
   }
 
   .middle-grp-wrapper {
@@ -215,10 +234,12 @@ nav {
     padding-bottom: 20px;
   }
 
+ 
+
   .middle-grp {
     display: flex;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 1400px;
   }
 

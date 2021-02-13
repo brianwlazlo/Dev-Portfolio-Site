@@ -43,10 +43,6 @@ nav {
 }
 
 #desktop-img {
-  display: none;
-}
-
-#mobile-img {
   width: 100%;
   height: auto;
 }
@@ -56,20 +52,15 @@ nav {
 }
 
 .right-content {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.scroll-message {
-  display: none; 
+.right-side h1 {
+  font-size: 18px;
+  font-weight: lighter;
 }
 
-.scroll-message a {
-  margin: 10px;
-  text-decoration: none;
-  padding: 5px 30px;
-  border: 1px solid gray;
-}
 
 .latest-work {
   display: flex;
@@ -79,8 +70,9 @@ nav {
 }
 
 .title {
+  font-size: 16px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .project-group {
@@ -91,13 +83,18 @@ nav {
 }
 
 .project-item {
-  height: 325px;
+  height: auto;
   width: 300px;
   border: 1px solid rgb(124, 124, 124);
   border-radius: 8px;
   padding-left: 15px;
   padding-right: 5px;
   padding-top: 15px;
+}
+
+.project-item img {
+  width: 250px;
+  height: 150px;
 }
 
 .project-item {
@@ -157,17 +154,7 @@ nav {
   .left-side {
     width: 50%;
   }
-
-  #desktop-img {
-    display: inline;
-    width: 100%;
-    height: auto;
-  }
   
-  #mobile-img {
-   display: none;
-  }
-
   .right-side {
     width: 50%;
     display: flex;
@@ -175,15 +162,9 @@ nav {
   }
 
   .right-content {
-    margin-top: 30%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
-  }
-
-  .scroll-message {
-    margin-top: 30%;
-    display: inline;
-    text-align: center;
   }
 
   .project-group {
@@ -199,5 +180,22 @@ nav {
   }
 
 }
+/*
+@media all and (min-width: 700px) {
+  .project-item {
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+  }
 
+  .project-item img {
+    width: 150px;
+    height: 100px;
+  }
 
+}
+*/

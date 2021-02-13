@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
@@ -13,6 +12,16 @@ body {
   min-height: 100%;
 }
 
+/*--- Text Formatting --- */
+h1 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h2  {font-size: 16px;}
+p   {font-size: 14px;}
+
+/* --- Nav Bar Styling ---*/
 nav {
   background-color: rgb(32, 32, 32);
   color: white;
@@ -33,6 +42,7 @@ nav {
   color: white;
 }
 
+/* --- Main Content ---*/
 .home-screen {
   display: flex;
   flex-direction: column;
@@ -56,12 +66,7 @@ nav {
   margin-right: 5%;
 }
 
-.right-side h1 {
-  font-size: 18px;
-  font-weight: lighter;
-}
-
-
+/* --- Latest Content Section ---*/
 .latest-work {
   display: flex;
   flex-direction: column;
@@ -70,7 +75,6 @@ nav {
 }
 
 .title {
-  font-size: 16px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -105,6 +109,7 @@ nav {
   cursor: pointer;
 }
 
+/* --- Contact Btn ---*/
 .contact {
   display: flex;
   justify-content: center;
@@ -127,7 +132,7 @@ nav {
 
 .contact a:visited {color:rgb(32, 32, 32)}
 
-
+/* --- Footer ---*/
 .footer {
   background-color: rgb(32, 32, 32);
   color: white;
@@ -138,7 +143,6 @@ nav {
 }
 
 .footer p {
- font-size: 14px;
  margin:0;
 }
 
@@ -146,7 +150,17 @@ nav {
   filter:opacity(.4);
 }
 
+/* ---- Media Queries ---*/
 @media all and (min-width: 600px) {
+  /*--- Text Formatting --- */
+  h1 {
+    font-size: 24px;
+    font-weight: lighter;
+  }
+
+  h2  {font-size: 36px;}
+  p   {font-size: 16px;}
+
   .home-screen {
     flex-direction: row;
   }
@@ -180,22 +194,3 @@ nav {
   }
 
 }
-/*
-@media all and (min-width: 700px) {
-  .project-item {
-    width: 200px;
-    height: 300px;
-    border: 1px solid rgb(124, 124, 124);
-    border-radius: 8px;
-    padding-left: 15px;
-    padding-right: 5px;
-    padding-top: 15px;
-  }
-
-  .project-item img {
-    width: 150px;
-    height: 100px;
-  }
-
-}
-*/

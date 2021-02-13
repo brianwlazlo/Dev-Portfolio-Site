@@ -121,11 +121,13 @@ li {
 }
 
 .cartoon img {
+  min-width: 250px;
   height: auto;
   width: 100%;
   border-radius: 10px;
 }
 
+/* --- Random Facts Section ----*/
 .random-facts {
   display: flex;
   flex-direction: column-reverse;
@@ -150,6 +152,7 @@ li {
   height: auto;
 }
 
+/* --- Footer ----*/
 .footer {
   background-color: rgb(54, 54, 54);
   color: white;
@@ -164,7 +167,13 @@ li {
  margin:0;
 }
 
+/* ---- Media Queries ---- */
 @media all and (min-width: 600px) {
+  /* --- Text Formatting ---*/
+  h1      {font-size: 42px;}
+  h3      {font-size: 22px;}
+  p, li   {font-size: 16px;}
+
   .container {
     display: flex;
     flex-direction: row;
@@ -218,10 +227,6 @@ li {
 
   .cartoon {
     order: 1;
-  }
-
-  .facts-content {
-    font-size: 16px;
   }
 
   .random-facts {

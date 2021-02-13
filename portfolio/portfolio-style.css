@@ -8,12 +8,18 @@ body {
   padding: 0;
 }
 
+/* --- Text Formatting ---*/
+h1  {font-size: 28px;}
+h3  {font-size: 18px;}
+p   {font-size: 14px;}
+a   {font-size: 14px; text-decoration: none;}
+
+/* --- Nav Bar ---*/
 nav {
   background-color: black;
   color: white;
   margin: 0;
   padding: 15px 5px 15px 15px;
-  
 }
 
 .nav-links {
@@ -27,9 +33,9 @@ nav {
   margin-right: 20px;
   text-decoration: none;
   color: white;
-  font-size: 12px;
 }
 
+/*--- Main Content ---*/
 .container {
   display: flex;
   flex-direction: column;
@@ -49,16 +55,7 @@ nav {
 }
 
 .title h1 {
-  font-size: 28px;
   margin:0;
-}
-
-.content h3, .middle-grp h3 {
-  font-size: 18px;
-}
-
-.content p, .challenge-details, .tech-used-list {
-  font-size: 12px;
 }
 
 .content {
@@ -69,10 +66,6 @@ nav {
 
 .site-link {
   margin-top: 20px;
-}
-.site-link a {
-  text-decoration: none;
-  font-size: 12px;
 }
 
 .right {
@@ -111,6 +104,7 @@ nav {
   line-height: 1.5;
 }
 
+/* --- Footer ---*/
 .footer {
   background-color: rgb(54, 54, 54);
   color: white;
@@ -121,15 +115,14 @@ nav {
 }
 
 .footer p {
- font-size: 14px;
  margin:0;
 }
 
 @media all and (min-width: 600px) {
-
-  .nav-links a {
-    font-size: 16px;
-  }
+  /* --- Text Formatting ---*/
+  h1   {font-size: 32px;}
+  h3   {font-size: 20px;}
+  p, a {font-size: 14px;}
 
   .container {
     display: flex;
@@ -187,6 +180,9 @@ nav {
 }
 
 @media all and (min-width: 1000px) {
+  h1   {font-size: 42px;}
+  h3   {font-size: 24px;}
+  p, a {font-size: 16px;}
 
   nav {
     margin: 0;
@@ -201,22 +197,6 @@ nav {
 
   .container {
     margin: 60px 10% 20px 10%;
-  }
-
-  .title h1 {
-    font-size: 46px;
-  }
-  
-  .content h3, .middle-grp h3 {
-    font-size: 24px;
-  }
-  
-  .content p, .challenge-details, .tech-used-list {
-    font-size: 16px;
-  }
-
-  .site-link a {
-    font-size: 16px;
   }
 
   .homescreen-screenshot img {
@@ -234,8 +214,6 @@ nav {
     padding-bottom: 20px;
   }
 
- 
-
   .middle-grp {
     display: flex;
     margin-left: 10%;
@@ -243,8 +221,4 @@ nav {
     max-width: 1400px;
   }
 
-  .challenges, .tech-used {
-    font-size: 16px;
-  }
-  
 }

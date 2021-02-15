@@ -43,9 +43,26 @@ nav {
 }
 
 .nav-links a {
+  color: white;
+  margin-bottom: 10px;
   margin-right: 20px;
   text-decoration: none;
-  color: white;
+  position: relative;
+}
+
+.nav-links a::after {
+  border-top: 5px solid white;
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+    right: 105%;
+    bottom: -10px;
+    left: 0;
+  transition: right .4s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  right: 0;
 }
 
 /* --- Main Section ----*/

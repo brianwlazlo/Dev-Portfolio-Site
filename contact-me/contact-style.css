@@ -27,10 +27,12 @@ button    {font-size: 18px;}
 
 /* -- Nav Bar ---*/
 nav {
-  background-color: black;
+  background-color: rgb(32, 32, 32);
   color: white;
   margin: 0;
   padding: 10px;
+  position: sticky;
+  top:0;
 }
 
 .nav-links {
@@ -38,9 +40,6 @@ nav {
   justify-content: flex-end;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
-  max-width: 1400px;
 }
 
 .nav-links a {
@@ -207,12 +206,12 @@ button[type='submit']:hover {
   button    {font-size: 18px;}
   #status   {font-size: 18px;}
 
-.social-media-item a {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  padding-top: 8px;
-}
+  .social-media-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-top: 8px;
+  }
   .container {
     display: flex;
     flex-direction: row;

@@ -27,6 +27,8 @@ nav {
   color: white;
   margin: 0;
   padding: 10px;
+  position: sticky;
+  top:0;
 }
 
 .nav-links {
@@ -68,9 +70,15 @@ nav {
 
 /* --- Latest Content Section ---*/
 .latest-work {
+  background-color: rgb(250, 246, 246);
+  padding-top: 80px;
+  padding-bottom: 40px;
+  
+}
+
+.latest-work-grp {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
   margin-bottom: 60px;
 }
 
@@ -134,7 +142,7 @@ nav {
 
 /* --- Footer ---*/
 .footer {
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(54, 54, 54);
   color: white;
   display: flex;
   justify-content: center;
@@ -146,13 +154,8 @@ nav {
  margin:0;
 }
 
-.opacity {
-  filter:opacity(.4);
-}
-
 /* ---- Media Queries ---*/
 @media all and (min-width: 600px) {
-  /*--- Text Formatting --- */
   h1 {
     font-size: 24px;
     font-weight: lighter;

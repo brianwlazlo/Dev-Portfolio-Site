@@ -16,17 +16,19 @@ a   {font-size: 14px; text-decoration: none;}
 
 /* --- Nav Bar ---*/
 nav {
-  background-color: black;
+  background-color: rgb(32, 32, 32);
   color: white;
   margin: 0;
-  padding: 15px 5px 15px 15px;
+  padding: 10px;
+  position: sticky;
+  top:0;
 }
 
 .nav-links {
   display: flex;
   justify-content: flex-end;
-  margin-left: 15%;
-  margin-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .nav-links a {
@@ -42,6 +44,7 @@ nav {
   justify-content: center;
   margin: 40px 5% 20px 5%;
   max-width: 1400px;
+
 }
 
 .left {
@@ -183,17 +186,6 @@ nav {
   h1   {font-size: 42px;}
   h3   {font-size: 24px;}
   p, a {font-size: 16px;}
-
-  nav {
-    margin: 0;
-    padding: 15px;
-  }
-  
-  .nav-links {
-    margin-left: 15%;
-    margin-right: 15%;
-    max-width: 1200px;
-  }
 
   .container {
     margin: 60px 10% 20px 10%;

@@ -9,34 +9,42 @@
 </head>
 <body>
 
-    <div class="parent">
-      <nav>
-        <div class='nav-links'>
+    <nav>
+      <div class='nav-links'>
+        <div>
           <a href="./about-me/about-me.html">about me</a>
-          <a href="./portfolio/portfolio-index.html">portfolio</a>
-          <a href="./contact-me/contact.html">contact me</a>
+          <div class="focus-bar"></div>
         </div>
-      </nav>
+        <div>
+          <a href="./portfolio/portfolio-index.html">portfolio</a>
+          <div class="focus-bar"></div>
+        </div>
+        <div>
+          <a href="./contact-me/contact.html">contact me</a>
+          <div class="focus-bar"></div>
+        </div>
+      </div>
+    </nav>
 
       <!-- welcome screen-->
-      <section id="home-screen" class="home-screen">
+    <section id="home-screen" class="home-screen">
 
-        <div class="left-side">
-          <div class="hero-shot">
-            <img src="./pics/Brian-park-blueshirt-large.png" alt="Brian wearing blue shirt smiling" id='desktop-img'>
+      <div class="left-side">
+        <div class="hero-shot">
+          <img src="./pics/Brian-park-blueshirt-large.png" alt="Brian wearing blue shirt smiling" id='desktop-img'>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="right-content">
+          <div class="welcome-message">
+            <h1>Hi. My name is Brian and I like to make web sites</h1>
           </div>
         </div>
-
-        <div class="right-side">
-          <div class="right-content">
-            <div class="welcome-message">
-              <h1>Hi. My name is Brian and I like to make web sites</h1>
-            </div>
-          </div>
-        </div>
-      
-      </section>
-    </div>
+      </div>
+    
+    </section>
+  
   
 
   <!-- latetst work -->
@@ -81,6 +89,8 @@
     <p>&copy; Brian Wlazlo</p>
   </section>
   
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src='./jquery.waypoints.min.js'></script>
   <script src='index.js'></script>
 </body>
 </html>

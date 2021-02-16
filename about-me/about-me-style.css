@@ -186,7 +186,6 @@ li {
 
 /* ---- Media Queries ---- */
 @media all and (min-width: 600px) {
-  /* --- Text Formatting ---*/
   h1      {font-size: 42px;}
   h3      {font-size: 22px;}
   p, li   {font-size: 16px;}

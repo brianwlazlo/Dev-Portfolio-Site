@@ -139,7 +139,6 @@ nav {
 }
 
 @media all and (min-width: 600px) {
-  /* --- Text Formatting ---*/
   h1   {font-size: 32px;}
   h3   {font-size: 20px;}
   p, a {font-size: 14px;}

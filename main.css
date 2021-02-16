@@ -6,6 +6,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
+ 
 }
 
 /*--- Text Formatting --- */
@@ -14,7 +15,7 @@ h1 {
   font-weight: lighter;
 }
 
-h2  {font-size: 16px;}
+h2  {font-size: 22px;}
 p   {font-size: 14px;}
 a   {font-size: 14px; text-decoration: none;}
 
@@ -78,19 +79,9 @@ nav {
 }
 
 .right-content {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 40px 8%;
 }
 
-/*--- section animations ---*/
-.latest-work-grp {
-  /*opacity: 0;*/
-  transition: all 600ms ease-in;
-}
-
-.js-project-grp-animate {
-  opacity: 1;
-}
 
 /* --- Latest Content Section ---*/
 .latest-work {
@@ -181,12 +172,13 @@ nav {
 /* ---- Media Queries ---*/
 @media all and (min-width: 600px) {
   h1 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: lighter;
   }
 
   h2  {font-size: 36px;}
   p   {font-size: 16px;}
+  a   {font-size: 16px; text-decoration: none;}
 
   .home-screen {
     flex-direction: row;
@@ -200,10 +192,10 @@ nav {
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .right-content {
-    margin-top: 20%;
     display: flex;
     flex-direction: column;
   }

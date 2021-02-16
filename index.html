@@ -5,82 +5,86 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./css/pagecrossfade.css">
   <title>Brian Wlazlo</title>
 </head>
 <body>
 
     <nav>
       <div class='nav-links'>
+        <a href="./index.html">home</a>
         <a href="./about-me/about-me.html">about me</a>
         <a href="./portfolio/portfolio-index.html">portfolio</a>
         <a href="./contact-me/contact.html">contact me</a>
       </div>
     </nav>
 
+    <main>
       <!-- welcome screen-->
-    <section id="home-screen" class="home-screen">
+      <section id="home-screen" class="home-screen">
 
-      <div class="left-side">
-        <div class="hero-shot">
-          <img src="./pics/Brian-park-blueshirt-large.png" alt="Brian wearing blue shirt smiling" id='desktop-img'>
-        </div>
-      </div>
-
-      <div class="right-side">
-        <div class="right-content">
-          <div class="welcome-message">
-            <h1>Hi. My name is Brian and I like to make web sites</h1>
+        <div class="left-side">
+          <div class="hero-shot">
+            <img src="./pics/Brian-park-blueshirt-large.png" alt="Brian wearing blue shirt smiling" id='desktop-img'>
           </div>
         </div>
-      </div>
-    
-    </section>
-  
-  
 
-  <!-- latetst work -->
-  <section class='latest-work' id='latest-work'>
-    <div class="latest-work-grp">
-      <div class="title">
-        <h2>Latest Work</h2>
-      </div> 
+        <div class="right-side">
+          <div class="right-content">
+            <div class="welcome-message">
+              <h1>Hi. My name is Brian and I like to make web sites</h1>
+            </div>
+          </div>
+        </div>
       
-      <div class="project-group">
-        
-          <div class="project-item">
-            <a href="./portfolio/portfolio-index.html#mrkt-monitor"><img src="./pics/thumnails/Resutls-Desktop-Pg1.png" alt=""></a>
-            <h4>mrkt_Monitor</h4>
-            <p>App for stock market price data and latest international headlines</p>
-          </div>
-        
+      </section>
+    
+    
 
+    <!-- latetst work -->
+    <section class='latest-work' id='latest-work'>
+      <div class="latest-work-grp">
+        <div class="title">
+          <h2>Latest Work</h2>
+        </div> 
         
-          <div class="project-item">
-            <a href="./portfolio/portfolio-index.html#dragonfly"><img src="./pics/thumnails/desktop-homePage.png" alt=""></a>
-            <h4>Dragonfly Landing</h3>
-            <p>Short-term vacation rental cottage in Maine</p>
-          </div>
-        
+        <div class="project-group">
+          
+            <div class="project-item">
+              <a href="./portfolio/portfolio-index.html#mrkt-monitor"><img src="./pics/thumnails/Resutls-Desktop-Pg1.png" alt=""></a>
+              <h4>mrkt_Monitor</h4>
+              <p>App for stock market price data and latest international headlines</p>
+            </div>
+          
 
-        
-          <div class="project-item">
-            <a href="./portfolio/portfolio-index.html#audiobook"><img src="./pics/thumnails/work-in-progress-smaller.jpg" alt=""></a>
-            <h4>Narrator Project Tracker</h4>
-            <p>App specifically tailored for the Audiobook Narrator community</p>
-          </div>
-        
+          
+            <div class="project-item">
+              <a href="./portfolio/portfolio-index.html#dragonfly"><img src="./pics/thumnails/desktop-homePage.png" alt=""></a>
+              <h4>Dragonfly Landing</h3>
+              <p>Short-term vacation rental cottage in Maine</p>
+            </div>
+          
+
+          
+            <div class="project-item">
+              <a href="./portfolio/portfolio-index.html#audiobook"><img src="./pics/thumnails/work-in-progress-smaller.jpg" alt=""></a>
+              <h4>Narrator Project Tracker</h4>
+              <p>App specifically tailored for the Audiobook Narrator community</p>
+            </div>
+          
+        </div>
       </div>
-    </div>
-    <div class="contact">
-      <a href="./contact-me/contact.html">Contact Me Here</a>
-    </div>
-  </section>
-
+      <div class="contact">
+        <a href="./contact-me/contact.html">Contact Me Here</a>
+      </div>
+    </section>
+  </main>
   <section class='footer'>
     <p>&copy; Brian Wlazlo</p>
   </section>
   
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src='./scripts/pagecrossfade.js'></script>
   <script src='./jquery.waypoints.min.js'></script>
   <script src='index.js'></script>
 </body>

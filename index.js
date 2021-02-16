@@ -11,3 +11,10 @@ $latestWork.waypoint(function (direction) {
 }, {offset: '50%'});
 
 */
+$(function() {
+  $('main').pageCrossFade({
+    duration: 500,
+    easing:'swing',
+    links:'internal',
+  });
+});

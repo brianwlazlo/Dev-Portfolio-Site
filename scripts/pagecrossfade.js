@@ -8,7 +8,7 @@
 
 
     var fadePage = function ($link) {
-      $('body').fadeOut(settings.duration, settings.easing, function () {
+      $('main').fadeOut(settings.duration, settings.easing, function () {
         window.location.href = $link;
       });
     };

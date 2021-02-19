@@ -186,6 +186,8 @@ nav {
 
   .left-side {
     width: 50%;
+
+    border: 1px solid blue;
   }
   
   .right-side {

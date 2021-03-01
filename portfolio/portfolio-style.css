@@ -98,6 +98,11 @@ nav {
   height:350px;
 }
 
+.asapPoke-homescreen {
+  width: 350px !important;
+  height: auto !important;
+}
+
 .wip-img img {
   width: auto;
   height: 150px;
@@ -210,6 +215,11 @@ nav {
   .homescreen-screenshot img {
     width: auto;
     height:380px;
+  }
+
+  .asapPoke-homescreen {
+    width: auto !important;
+    height: 250px !important;
   }
 
   .wip-img img {
